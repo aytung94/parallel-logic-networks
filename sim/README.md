@@ -7,7 +7,7 @@
 ```bash
 $ make Design.h=<YourDesignName>.h cuda
 ```
-3. Create input.txt to test design
+3. Create input.txt to test design.
 
 File should contain the number of simulation passes on the first line. 
 The inputs should be specified on the following lines. 
@@ -16,7 +16,7 @@ Example for 4 input design with 2 passes:
 1 0 1 0
 0 0 0 1
 
-3. Run simulator
+3. Run simulator.
 
 If NVIDIA GPU is native, then run ./simulator. 
 If TACC super computer is used, load module using 'module load cuda', then 'sbatch RunSim'.
